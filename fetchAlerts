@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function callback()
+{
+var badgeValue = $(this).find('.dropdown-icon');
+return badgeValue;
+}
+</script>
+</head>
+
+<body>
+<button onclick="myFunction()">Try it</button>
+</body>
+</html>
