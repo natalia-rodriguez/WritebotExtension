@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Writebot Notifications",
+  "version": "1.0",
+  "description": "A simple extension to keep track of missed chats in your rooms.",
+  
+  "permissions": [
+    "http://writebot.com/"
+  ],
+  
+  
+  "browser_action": {
+    "default_icon": "writebotlogo.png",
+	chrome.browserAction.getBadgeText(object details, function callback)
+
+
+  }
+}
