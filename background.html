@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <script src="jquery.min.js"></script>
+    <script>
+	
+	chrome.browserAction.getBadgeText({text: ++i + ''});
+
+      function callback()
+	{
+	var badge = $(this).find('.dropdown-icon');
+	return badge;
+	}
+      function getPopupView() {
+        return chrome.extension.getViews({type: 'popup'})[0];
+      }
+    </script>
+  </head>
+</html>
